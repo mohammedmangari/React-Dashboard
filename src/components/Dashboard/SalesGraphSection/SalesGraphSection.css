@@ -1,0 +1,168 @@
+.chart {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 36px;
+    position: relative;
+    width: 100%;
+}
+
+.graph-bar {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.x-axis {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 37px;
+    position: relative;
+}
+
+.text-wrapper-11 {
+    color: var(--black-20);
+    font-family: var(--label-2-regular-font-family);
+    font-size: var(--label-2-regular-font-size);
+    font-style: var(--label-2-regular-font-style);
+    font-weight: var(--label-2-regular-font-weight);
+    letter-spacing: var(--label-2-regular-letter-spacing);
+    line-height: var(--label-2-regular-line-height);
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.bar {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 19px;
+    position: relative;
+}
+
+.bar-2 {
+    background-color: #eef0f9;
+    border-radius: 50px;
+    height: 241px;
+    position: relative;
+    width: 13px;
+}
+
+.text-wrapper-12 {
+    color: var(--black-10);
+    font-family: var(--label-2-regular-font-family);
+    font-size: var(--label-2-regular-font-size);
+    font-style: var(--label-2-regular-font-style);
+    font-weight: var(--label-2-regular-font-weight);
+    letter-spacing: var(--label-2-regular-letter-spacing);
+    line-height: var(--label-2-regular-line-height);
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.container .summary-heading-2 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.container .frame-4 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 21px;
+    position: relative;
+}
+.container .filter-3 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 7px;
+    position: relative;
+}
+
+.frame-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.frame-5{
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    max-width: 76px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text-wrapper-8{
+    color: #d23565;
+    font-size: 14px;
+    font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    text-align: left;
+}
+
+.fi-chevron-down-2{
+    width: 100%;
+    overflow: hidden;
+    max-width: 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.container .text-wrapper-9 {
+    color: var(--black-100);
+    font-family: var(--label-1-regular-font-family);
+    font-size: var(--label-1-regular-font-size);
+    font-style: var(--label-1-regular-font-style);
+    font-weight: var(--label-1-regular-font-weight);
+    letter-spacing: var(--label-1-regular-letter-spacing);
+    line-height: var(--label-1-regular-line-height);
+    margin-top: -0.5px;
+    position: relative;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.container .fi-chevron-down-3 {
+    height: 16px;
+    position: relative;
+    width: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .chart{
+        width: 100%;
+    }
+}

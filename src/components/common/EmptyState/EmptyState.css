@@ -1,0 +1,71 @@
+.empty-state {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+}
+
+.empty-state .icon-container {
+    background-color: var(--main-background);
+    border: 1px solid;
+    border-color: var(--grey);
+    border-radius: 500px;
+    height: 140px;
+    overflow: hidden;
+    position: relative;
+    width: 140px;
+}
+
+.empty-state .iconly-bulk-bag {
+    height: 60px;
+    left: 40px;
+    position: absolute;
+    top: 40px;
+    width: 60px;
+}
+
+.empty-state .empty-state-content {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.empty-state .description {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+}
+
+.empty-state .text-wrapper {
+    color: #000000;
+    font-family: var(--subheading-3-medium-font-family);
+    font-size: var(--subheading-3-medium-font-size);
+    font-style: var(--subheading-3-medium-font-style);
+    font-weight: var(--subheading-3-medium-font-weight);
+    letter-spacing: var(--subheading-3-medium-letter-spacing);
+    line-height: var(--subheading-3-medium-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.empty-state .div {
+    color: var(--black-30);
+    font-family: var(--paragraph-2-regular-font-family);
+    font-size: var(--paragraph-2-regular-font-size);
+    font-style: var(--paragraph-2-regular-font-style);
+    font-weight: var(--paragraph-2-regular-font-weight);
+    letter-spacing: var(--paragraph-2-regular-letter-spacing);
+    line-height: var(--paragraph-2-regular-line-height);
+    position: relative;
+    text-align: center;
+    width: 282px;
+}

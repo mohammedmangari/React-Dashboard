@@ -1,0 +1,135 @@
+.badge {
+    align-items: center;
+    border: 2px solid;
+    gap: 10px;
+    position: relative;
+}
+
+.badge .BADGE {
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.badge.rounded {
+    border-radius: 15px;
+}
+
+.badge.light {
+    background-color: var(--whitewhite);
+    border-color: var(--gray-bluegrey-blue-97);
+    box-shadow: var(--shadows-gray-blue-30-3-5b);
+}
+
+.badge.large {
+    height: 32px;
+    justify-content: center;
+}
+
+.badge.default {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.badge.small {
+    height: 22px;
+}
+
+.badge.primary {
+    background-color: var(--blueblue);
+    border-color: var(--blueblue);
+}
+
+.badge.dark {
+    background-color: var(--gray-bluegrey-blue-25);
+    border-color: var(--gray-bluegrey-blue-35);
+    box-shadow: var(--shadows-gray-blue-30-3-5b);
+}
+
+.badge.square {
+    display: flex;
+}
+
+.badge.rectangle {
+    border-radius: 5px;
+}
+
+.badge.square.large {
+    padding: 5px 13px;
+    width: 32px;
+}
+
+.badge.square.small {
+    width: 22px;
+}
+
+.badge.rounded.small {
+    padding: 0px 10px;
+}
+
+.badge.default.small {
+    padding: 0px 10px;
+}
+
+.badge.default.large.rectangle {
+    padding: 5px 10px;
+}
+
+.badge.default.rounded.large {
+    padding: 5px 15px;
+}
+
+.badge.square.small.rectangle {
+    padding: 0px 7px;
+}
+
+.badge.light .BADGE {
+    color: var(--gray-bluegrey-blue-60);
+}
+
+.badge.large .BADGE {
+    font-family: var(--black-black-12-font-family);
+    font-size: var(--black-black-12-font-size);
+    font-style: var(--black-black-12-font-style);
+    font-weight: var(--black-black-12-font-weight);
+    letter-spacing: var(--black-black-12-letter-spacing);
+    line-height: var(--black-black-12-line-height);
+}
+
+.badge.default .BADGE {
+    width: fit-content;
+}
+
+.badge.small .BADGE {
+    font-family: var(--black-black-8-font-family);
+    font-size: var(--black-black-8-font-size);
+    font-style: var(--black-black-8-font-style);
+    font-weight: var(--black-black-8-font-weight);
+    letter-spacing: var(--black-black-8-letter-spacing);
+    line-height: var(--black-black-8-line-height);
+}
+
+.badge.primary .BADGE {
+    color: var(--whitewhite);
+}
+
+.badge.dark .BADGE {
+    color: var(--gray-bluegrey-blue-70);
+}
+
+.badge.square .BADGE {
+    height: 20px;
+}
+
+.badge.square.large .BADGE {
+    flex: 1;
+}
+
+.badge.square.rounded.small .BADGE {
+    width: 1px;
+}
+
+.badge.square.small.rectangle .BADGE {
+    width: 6px;
+}

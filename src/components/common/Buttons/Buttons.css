@@ -1,0 +1,54 @@
+.custom-button {
+    width: 180px;
+    height: 44px;
+    padding: 17px 16px;
+    background: #D23565;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.custom-button-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.heart-icon {
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../assets/images/Heart.png);
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+
+.heart-shape {
+    width: 19px;
+    height: 18px;
+    position: relative;
+}
+
+.heart-line {
+    width: 1.92px;
+    height: 2.42px;
+    position: absolute;
+    border: 1.5px white solid;
+    left: 13.5px;
+    top: 3.7px;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}

@@ -1,0 +1,33 @@
+.dashboard-summary-2 {
+    color: var(--primary-10);
+}
+
+.dashboard-summary-3 {
+    color: var(--white);
+}
+
+.dashboard-summary-4 {
+    align-self: stretch;
+    background-color: #d23565;
+    height: 159px;
+    width: 100%;
+}
+
+.dashboard-summary-5 {
+    background-color: #ffffff29;
+}
+
+.dashboard-summary-6 {
+    align-self: stretch;
+    height: 159px;
+    width: 100%;
+}
+
+.dashboard-summary-7 {
+    color: #CC5F5F;
+}
+
+.dashboard-summary-card-instance {
+    opacity: 0;
+}
+

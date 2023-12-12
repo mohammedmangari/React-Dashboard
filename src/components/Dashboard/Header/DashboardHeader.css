@@ -1,0 +1,53 @@
+/* Original styles */
+.frame-3 {
+    display: flex;
+    /* flex: 0 0 auto; */
+    /* flex-wrap: wrap; */
+    gap: 19px;
+    /* position: relative;
+    padding: 0px 20px ; */
+    /* background-color: black; */
+    /* width: 100%; */
+   
+}
+
+.dashboard-summary-card {
+    width: 321px;
+}
+
+.design-component-instance-node {
+    width: 460px;
+}
+
+.dashboard-summary-instance {
+    background-color: #d235651f;
+}
+
+.dashboard-summary-card-instance {
+    opacity: 0;
+}
+
+.icon-instance-node {
+    height: 20px;
+    left: 8px;
+    position: absolute;
+    top: 8px;
+    width: 20px;
+}
+
+/* Media query for medium-sized screens */
+@media screen and (max-width: 769px) {
+    .frame-3 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .dashboard-summary-card,
+    .design-component-instance-node {
+        width: 100%;
+    }
+}
+
+
+

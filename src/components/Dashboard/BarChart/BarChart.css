@@ -1,0 +1,205 @@
+.bar-chart {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    gap: 10px;
+    height: 337px;
+    justify-content: center;
+    padding: 21px 20px;
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bar-chart-instance {
+    align-self: stretch;
+    height: unset;
+    width: 310px ;
+}
+
+.bar-chart .content {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 24px;
+    height: 291px;
+    position: relative;
+}
+
+.bar-chart-2 {
+    background-color: #d23565;
+}
+
+.bar-chart-3 {
+    background-image: url(../../assets/images/Group_2.svg);
+    /* width: 310px; */
+}
+
+.bar-chart .top {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    width: 100%;
+}
+
+.bar-chart .div {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.bar-chart .text-wrapper {
+    color: var(--black-60);
+    font-family: var(--paragraph-1-medium-font-family);
+    font-size: var(--paragraph-1-medium-font-size);
+    font-style: var(--paragraph-1-medium-font-style);
+    font-weight: var(--paragraph-1-medium-font-weight);
+    letter-spacing: var(--paragraph-1-medium-letter-spacing);
+    line-height: var(--paragraph-1-medium-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.bar-chart .filter {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 7px;
+    position: relative;
+}
+
+.bar-chart .text-wrapper-2 {
+    color: var(--black-10);
+    font-family: var(--label-1-regular-font-family);
+    font-size: var(--label-1-regular-font-size);
+    font-style: var(--label-1-regular-font-style);
+    font-weight: var(--label-1-regular-font-weight);
+    letter-spacing: var(--label-1-regular-letter-spacing);
+    line-height: var(--label-1-regular-line-height);
+    margin-top: -0.5px;
+    position: relative;
+    width: fit-content;
+}
+
+.bar-chart .fi-chevron-down {
+    height: 16px !important;
+    position: relative !important;
+    width: 16px !important;
+    cursor: pointer;
+}
+
+.bar-chart .key {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    position: relative;
+}
+
+.bar-chart .rectangle {
+    background-color: var(--primary-100);
+    border-radius: 6px;
+    height: 8px;
+    position: relative;
+    width: 8px;
+}
+
+.bar-chart .text-wrapper-3 {
+    color: var(--black-20);
+    font-family: var(--label-2-regular-font-family);
+    font-size: var(--label-2-regular-font-size);
+    font-style: var(--label-2-regular-font-style);
+    font-weight: var(--label-2-regular-font-weight);
+    letter-spacing: var(--label-2-regular-letter-spacing);
+    line-height: var(--label-2-regular-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.bar-chart .rectangle-2 {
+    background-color: var(--primary-50);
+    border-radius: 6px;
+    height: 8px;
+    position: relative;
+    width: 8px;
+}
+
+.bar-chart .rectangle-3 {
+    background-color: var(--secondary-100);
+    border-radius: 6px;
+    height: 8px;
+    position: relative;
+    width: 8px;
+}
+
+.bar-chart .group {
+    background-size: 100% 100%;
+    height: 205px;
+    position: relative;
+    width: 205px;
+    margin-top: 20px;
+    
+}
+
+.bar-chart .overlap-group {
+    height: 172px;
+    left: 17px;
+    position: relative;
+    top: 17px;
+    width: 172px;
+}
+
+.bar-chart .ellipse {
+    height: 168px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 86px;
+}
+
+.bar-chart .img {
+    height: 43px;
+    left: 21px;
+    position: absolute;
+    top: 0;
+    width: 66px;
+}
+
+.bar-chart .ellipse-2 {
+    height: 172px;
+    left: 58px;
+    position: absolute;
+    top: 0;
+    width: 114px;
+}
+
+.bar-chart .plus-data {
+    background-image: url(./image.svg);
+}
+
+.bar-chart .empty {
+    background-image: url(../../../assets/svg/chart_without_data.svg);
+}
+
+
+@media screen and (max-width: 768px) {
+.bar-chart-instance{
+    width: 100%;
+}
+}

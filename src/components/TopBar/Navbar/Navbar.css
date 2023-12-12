@@ -1,0 +1,119 @@
+/* Top Navigation */
+.top-nav {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    z-index: 1000 !important;
+}
+
+/* Navigation Container Wrapper */
+.top-nav .nav-container-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #ffffff;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 14px 21px;
+    position: relative;
+    width: 100%;
+}
+
+/* Navigation Container */
+.top-nav .nav-container {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+/* Text Wrapper */
+.top-nav .text-wrapper {
+    color: var(--black-60);
+    font-family: "DM Sans-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+}
+
+/* Profile */
+.top-nav .profile {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 32px;
+    position: relative;
+    padding: 0 40px;
+}
+
+/* Breadcrumbs */
+.top-nav .breadcrumbs {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #ffffff;
+    border-color: var(--stroke);
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 4px 20px;
+    position: relative;
+    width: 100%;
+}
+
+/* Breadcrumb Item */
+.top-nav .div-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 11px;
+    position: relative;
+}
+
+/* Icon Display for Breadcrumbs */
+.top-nav .iconly-bulk-home,
+.top-nav .vuesax-bold {
+    height: 16px !important;
+    position: relative !important;
+    width: 16px !important;
+}
+
+/* Breadcrumb Separator */
+.top-nav .text-wrapper-4 {
+    color: var(--black-30);
+    font-family: var(--label-1-regular-font-family);
+    font-size: var(--label-1-regular-font-size);
+    font-style: var(--label-1-regular-font-style);
+    font-weight: var(--label-1-regular-font-weight);
+    letter-spacing: var(--label-1-regular-letter-spacing);
+    line-height: var(--label-1-regular-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+/* Breadcrumb Text */
+.top-nav .text-wrapper-5 {
+    color: var(--black-30);
+    font-family: "DM Mono-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+
