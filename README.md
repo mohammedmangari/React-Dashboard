@@ -9,8 +9,6 @@ Welcome to the ReactDashboard Documentation! This guide contains detailed inform
 - [Getting Started](#getting-started)
 - [Folder Structure](#folder-structure)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
@@ -50,7 +48,7 @@ Components specific to the dashboard section reside here.
 1. Clone the repository.
 2. Navigate to the project's root directory.
 3. Run `npm install` to install dependencies.
-4. Run `npm start` to start the application.
+4. Run `npm run dev` to start the application.
 
 ## Folder Structure
 
