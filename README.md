@@ -4,7 +4,7 @@ Welcome to the React-Dashboard Documentation! This guide contains detailed infor
 
 ## Demo
 
-Check out the live demo of ReactDashboard [here](https://github.com/mohammedmangari/React-Dashboard/assets/106490110/1c9207b1-0b39-4a6b-832a-7908f8379858) to explore the application's interface and functionalities firsthand.
+Check out the live demo of ReactDashboard [here](https://github.com/mohammedmangari/React-Dashboard/assets/106490110/1c9207b1-0b39-4a6b-832a-7908f8379858) to explore the application's interface.
 
 ## Table of Contents
 - [Description](#description)
@@ -51,13 +51,14 @@ Components specific to the dashboard section reside here.
 1. Clone the repository.
 2. Navigate to the project's root directory.
 3. Run `npm install` to install dependencies.
+
 4. Run `npm run dev` to start the application.
 
 ## Folder Structure
 
 Here is the folder structure of the project:
 
-![Folder Structure](https://github.com/mohammedmangari/React-Dashboard/assets/106490110/1c9207b1-0b39-4a6b-832a-7908f8379858)
+![Folder Structure](https://github.com/mohammedmangari/React-Dashboard/assets/106490110/d003ddc0-7109-4527-ab2e-9e399130e014)
 
 ## Components Tree
 
