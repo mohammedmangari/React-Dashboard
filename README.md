@@ -1,19 +1,17 @@
-# ReactDashboard
+# React-Dashboard
 
-Welcome to the ReactDashboard Documentation! This guide contains detailed information about the app's features, components, and how to use them.
+Welcome to the React-Dashboard Documentation! This guide contains detailed information about the app's features, components, and how to use them.
 
 ## Demo
 
-Check out the live demo of ReactDashboard [Screen Recording - Made with FlexClip (2).webm](https://github.com/mohammedmangari/React-Dashboard/assets/106490110/1c9207b1-0b39-4a6b-832a-7908f8379858) to explore the application's interface and functionalities firsthand.
-
-
+Check out the live demo of ReactDashboard [here](https://github.com/mohammedmangari/React-Dashboard/assets/106490110/1c9207b1-0b39-4a6b-832a-7908f8379858) to explore the application's interface and functionalities firsthand.
 
 ## Table of Contents
 - [Description](#description)
 - [Key Components](#key-components)
 - [Getting Started](#getting-started)
 - [Folder Structure](#folder-structure)
-- [Usage](#usage)
+- [Components Tree](#components-tree)
 
 ## Description
 
@@ -59,4 +57,10 @@ Components specific to the dashboard section reside here.
 
 Here is the folder structure of the project:
 
-![Folder Structure](/src/assets/images/Folder-Structure.png)
+![Folder Structure](https://github.com/mohammedmangari/React-Dashboard/assets/106490110/1c9207b1-0b39-4a6b-832a-7908f8379858)
+
+## Components Tree
+
+Here is the components tree of the ReactDashboard:
+
+![Components Tree](https://github.com/mohammedmangari/React-Dashboard/assets/106490110/9c7871cf-5820-4979-87b4-39dc444d0d3b)
