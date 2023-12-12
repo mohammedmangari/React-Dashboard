@@ -2,8 +2,13 @@
 
 Welcome to the ReactDashboard Documentation! This guide contains detailed information about the app's features, components, and how to use them.
 
-## Table of Contents
+## Demo
 
+Check out the live demo of ReactDashboard [Screen Recording - Made with FlexClip (2).webm](https://github.com/mohammedmangari/React-Dashboard/assets/106490110/1c9207b1-0b39-4a6b-832a-7908f8379858) to explore the application's interface and functionalities firsthand.
+
+
+
+## Table of Contents
 - [Description](#description)
 - [Key Components](#key-components)
 - [Getting Started](#getting-started)
