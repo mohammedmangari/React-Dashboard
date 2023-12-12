@@ -54,30 +54,6 @@ Components specific to the dashboard section reside here.
 
 ## Folder Structure
 
-ReactDashboard/
-│
-├── src/
-│ ├── components/
-│ │ ├── TopBar/
-│ │ │ ├── Navbar/
-│ │ │ ├── NotificationButton/
-│ │ │ ├── ProfileComponent/
-│ │ │ ├── UserProfile/
-│ │ │ └── Breadcrumbs/
-│ │ ├── Common/
-│ │ │ ├── Badge/
-│ │ │ ├── Buttons/
-│ │ │ ├── DashboardSummary/
-│ │ │ └── EmptyState/
-│ │ └── Dashboard/
-│ │ ├── DashboardContent/
-│ │ ├── DashboardHeader/
-│ │ ├── BarChart/
-│ │ ├── OrderSummary/
-│ │ ├── ProductSummarySection/
-│ │ └── SalesGraphSection/
-│ │
-│ ├── App.js
-│ └── ...
-│
-└── ...
+Here is the folder structure of the project:
+
+![Folder Structure](/src/assets/images/Folder-Structure.png)
